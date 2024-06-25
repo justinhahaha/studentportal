@@ -1,0 +1,771 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styles */
+body {
+    font-family: Arial, sans-serif;
+    color: #333; /* Dark gray text */
+    display: flex;
+    flex-direction: column; /* Set flex direction to column */
+    min-height: 100vh; /* Set minimum height to fill the viewport */
+}
+
+/* Top navigation styles */
+.top-nav {
+    background-color: #333;
+    overflow: hidden;
+    transition: all 0.3s ease;
+}
+
+.top-nav a {
+    float: left;
+    display: block;
+    color: #fff;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.top-nav a:hover {
+    background-color: #555;
+}
+
+/* Header styles */
+header {
+    text-align: center;
+    padding: 40px 0;
+}
+
+header h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+    color: white; /* White text */
+    transition: color 0.3s ease;
+}
+
+/* Main content styles */
+main {
+    padding: 20px;
+    flex: 1; /* Let main content grow to fill remaining space */
+}
+
+.about-section {
+    display: flex;
+    flex-direction: row; /* Align image and text side by side */
+    justify-content: center; /* Center content horizontally */
+    align-items: center; /* Center content vertically */
+    margin-top: 50px; /* Adjust margin for spacing */
+    max-width: 900px; /* Set maximum width for the content */
+    margin: 0 auto; /* Center the content horizontally */
+}
+
+.about-section img {
+    width: 300px; /* Adjust image width */
+    height: auto;
+    margin-right: 20px; /* Add space between image and text */
+    border-radius: 10px; /* Add border-radius to the image */
+}
+
+.about-section p {
+    flex: 1; /* Fill remaining space */
+    font-size: 20px; /* Adjust font size */
+    line-height: 1.9;
+    color: whitesmoke /* White text */
+}
+
+/* Footer styles */
+footer {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #333;
+    color: #fff; /* White text */
+    margin-top: auto; /* Push the footer to the bottom */
+}
+
+
+/*index*/
+
+/* Body styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #1f1f1f; /* Dark background color */
+    color: #fff; /* White text color */
+}
+
+/* Login page styles */
+.login-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.login-heading {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.login-form {
+    background-color: #333; /* Darker background color for form */
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.login-form label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.login-form input[type="email"],
+.login-form input[type="password"],
+.login-form select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: none;
+    border-radius: 5px;
+    background-color: #444; /* Darker background color for input fields */
+    color: #fff; /* White text color */
+}
+
+.login-form input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #9ccadd; /* Button background color */
+    color: #fff; /* White text color */
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.login-form input[type="submit"]:hover {
+    background-color: #77a9c6; /* Darker background color on hover */
+}
+
+.login-message {
+    margin-top: 20px;
+}
+
+.go-back-button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #555; /* Button background color */
+    color: #fff; /* White text color */
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.go-back-button:hover {
+    background-color: #333; /* Darker background color on hover */
+}
+
+/* portal*/
+
+/* Body styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #1f1f1f; /* Dark background color */
+    color: #fff; /* White text color */
+}
+
+/* Heading styles */
+h1 {
+    text-align: center;
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+/* Contact information styles */
+.contact-info {
+    margin: 30px auto; /* Center contact information */
+    max-width: 600px; /* Limit max width of contact information */
+}
+
+.contact-info h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.contact-info p {
+    margin-bottom: 5px;
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+/* Form styles */
+form {
+    margin: 20px auto; /* Center form */
+    max-width: 600px; /* Limit max width of form */
+    padding: 20px;
+    background-color: #333; /* Darker background color for form */
+    border-radius: 10px;
+}
+
+form label {
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+}
+
+form input[type="text"],
+form input[type="email"],
+form select,
+form textarea {
+    width: calc(100% - 24px); /* Make the form fields slightly smaller */
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+    background-color: #444; /* Darker background color for input fields */
+    color: #fff; /* White text color */
+    margin-bottom: 15px;
+}
+
+form input[type="submit"] {
+    display: block;
+    margin: 0 auto; /* Center the submit button */
+    background-color: #555;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+form input[type="submit"]:hover {
+    background-color: #333;
+}
+
+.container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+
+.col-25 {
+    float: left;
+    width: 25%;
+    margin-top: 6px;
+}
+
+.col-75 {
+    float: left;
+    width: 75%;
+    margin-top: 6px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+/* contact*/
+
+
+/* Body styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #1f1f1f; /* Dark background color */
+    color: #fff; /* White text color */
+    padding: 20px; /* Add some padding for content */
+}
+
+/* Heading styles */
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Section styles */
+section {
+    margin-bottom: 40px; /* Add space between sections */
+    display: flex; /* Use flexbox for layout */
+    align-items: center; /* Center items vertically */
+}
+
+section h2 {
+    color: #60676e; /* Blue heading color */
+    margin-bottom: 10px; /* Add space below heading */
+}
+
+section img {
+    width: 200px; /* Set maximum width for images */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 8px; /* Add some border radius to images */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add shadow to images */
+}
+
+section .content {
+    flex: 1; /* Take remaining space */
+    margin-left: 40px; /* Add space between image and content */
+    
+}
+
+section p {
+    font-size: 16px; /* Adjust font size */
+    line-height: 1.6; /* Increase line height for better readability */
+    margin-bottom: 10px; /* Add space between paragraphs */
+    text-align: justify; /* Justify paragraphs */
+}
+
+/* Button styles */
+button {
+    display: block;
+    margin: 20px auto; /* Center button and add space below */
+    padding: 10px 20px; /* Add some padding */
+    background-color: #555; /* Blue button color */
+    color: #fff; /* White text color */
+    border: none;
+    border-radius: 4px; /* Add some border radius */
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Smooth background color transition */
+}
+
+button:hover {
+    background-color: #333; /* Darker blue on hover */
+}
+/* program*/
+
+
+/* Body styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #1f1f1f; /* Dark background color */
+    color: #fff; /* White text color */
+    padding: 20px; /* Add some padding */
+}
+
+/* Heading styles */
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Form styles */
+form {
+    max-width: 600px; /* Limit max width of form */
+    margin: 0 auto; /* Center the form */
+    background-color: #333; /* Dark background color for form */
+    padding: 20px; /* Add some padding */
+    border-radius: 8px; /* Add border radius */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add shadow */
+}
+
+form label {
+    display: block;
+    margin-bottom: 8px; /* Add space below labels */
+    font-weight: bold; /* Make labels bold */
+    color: #ccc; /* Light gray text color */
+}
+
+form input[type="text"],
+form input[type="number"],
+form select,
+form textarea {
+    width: 100%; /* Full width for input fields */
+    padding: 5px; /* Add some padding */
+    margin-bottom: 5px; /* Add space below input fields */
+    border: 1px solid #777; /* Darker gray border */
+    border-radius: 5px; /* Add border radius */
+    background-color: #444; /* Dark background color for input fields */
+    color: #fff; /* White text color */
+}
+
+form input[type="file"] {
+    margin-top: 5px; /* Add space above file input */
+}
+
+form input[type="submit"] {
+    display: block;
+    width: 100%; /* Full width for submit button */
+    padding: 12px; /* Add some padding */
+    background-color: #555; /* Blue button color */
+    color: #fff; /* White text color */
+    border: none; /* Remove border */
+    border-radius: 4px; /* Add border radius */
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Smooth background color transition */
+}
+
+form input[type="submit"]:hover {
+    background-color: #333; /* Darker blue on hover */
+}
+
+/*register*/
+
+
+/* Content above the table styles */
+.content-above-table {
+    background-color: #3d3737; /* Dark background color */
+    padding: 20px;
+    border-radius: 8px; /* Add border radius */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add shadow */
+    margin-bottom: 20px; /* Add space between content and table */
+}
+
+/* Announcement styles */
+.announcement-container {
+    background-color: #3d3737; /* Dark background color */
+    padding: 20px;
+    border-radius: 8px; /* Add border radius */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add shadow */
+    margin-bottom: 20px; /* Add space between announcements and table */
+}
+
+.announcement-title {
+    color: #fff; /* White text color */
+    font-size: 24px; /* Adjust font size */
+    margin-bottom: 10px; /* Add space below title */
+}
+
+.announcement-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.announcement-item {
+    margin-bottom: 10px; /* Add space between items */
+}
+
+.announcement-link {
+    color: #007bff; /* Blue link color */
+    text-decoration: none;
+}
+
+.announcement-link:hover {
+    text-decoration: underline; /* Underline on hover */
+}
+
+/* Logout link styles */
+.logout-link {
+    margin-top: 20px; /* Add space above logout link */
+}
+
+/* Edit and Delete link styles */
+.edit-link,
+.delete-link {
+    color: #007bff; /* Blue link color */
+    text-decoration: none;
+    margin-right: 5px; /* Add space between edit and delete links */
+}
+
+.edit-link:hover,
+.delete-link:hover {
+    text-decoration: underline; /* Underline on hover */
+}
+
+/* Logout link styles */
+.logout-link {
+    margin-top: 20px; /* Add space above logout link */
+}
+
+/* Edit and Delete link styles */
+.edit-link,
+.delete-link {
+    color: #007bff; /* Blue link color */
+    text-decoration: none;
+    margin-right: 5px; /* Add space between edit and delete links */
+}
+
+.edit-link:hover,
+.delete-link:hover {
+    text-decoration: underline; /* Underline on hover */
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #3d3737; /* White background color */
+    border-radius: 8px; /* Add border radius */
+    overflow: hidden; /* Hide overflow content */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add shadow */
+}
+
+table th, table td {
+    padding: 15px; /* Increase padding */
+    border: 1px solid #ddd;
+    text-align: left;
+    font-size: 16px; /* Adjust font size */
+}
+
+table th {
+    background-color: #252222;
+    font-weight: bold;
+}
+/* Logout button styles */
+.logout-link {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #3b3e42; /* Blue background color */
+    color: #fff; /* White text color */
+    text-decoration: none;
+    border-radius: 5px; /* Add border radius */
+    transition: background-color 0.3s ease; /* Smooth transition */
+}
+
+.logout-link:hover {
+    background-color: #303133; /* Darker blue on hover */
+}
+/*student dashboard*/
+
+/* Add this CSS to style.css */
+
+/* Dashboard page styles */
+.dashboard-page {
+    font-family: Arial, sans-serif;
+    background-color: #555; /* Same as student dashboard */
+    color: #333; /* Same as student dashboard */
+    padding: 20px;
+}
+
+/* Dashboard container styles */
+.dashboard-container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/* Dashboard heading styles */
+.dashboard-heading {
+    text-align: center;
+    margin-bottom: 20px;
+    color: whitesmoke;
+}
+
+/* Dashboard section styles */
+.dashboard-section {
+    background-color: #555; /* Same as student dashboard */
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+/* Section heading styles */
+.section-heading {
+    color: black; /* Same as student dashboard */
+    margin-bottom: 15px;
+}
+
+/* Announcement form styles */
+.announcement-form label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.announcement-form textarea {
+    width: 100%;
+    height: 80px;
+    padding: 20px;
+    margin-bottom: 1px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+/* Announcement list styles */
+.announcement-list {
+    list-style-type: none;
+    padding-left: 30;
+    color:whitesmoke;
+}
+
+.announcement-item {
+    margin-bottom: 0px;
+}
+
+.announcement-item a {
+    color: #007bff; /* Same as student dashboard */
+    text-decoration: none;
+    margin-left: 10px;
+}
+
+.announcement-item a:hover {
+    text-decoration: underline;
+}
+
+/* No data message styles */
+.no-data-message {
+    font-style: italic;
+    color: #888; /* Same as student dashboard */
+}
+
+/* Registration table styles */
+.registration-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 15px;
+    background-color: #333;
+    color:whitesmoke;
+}
+
+.registration-table th, .registration-table td {
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+
+.registration-table th {
+    background-color: #333; /* Same as student dashboard */
+    font-weight: bold;
+    color: white;
+}
+
+/* Contact table styles */
+.contact-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 15px;
+}
+
+.contact-table th, .contact-table td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    background-color: #333;
+    color:whitesmoke;
+}
+
+.contact-table th {
+    background-color: #333; /* Same as student dashboard */
+    font-weight: bold;
+    color:white;
+}
+
+/* Reply link styles */
+.reply-link {
+    color: #007bff; /* Same as student dashboard */
+    text-decoration: none;
+}
+
+.reply-link:hover {
+    text-decoration: underline;
+}
+
+/* Logout link styles */
+.logout-link {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.logout-link a {
+    color: #007bff; /* Same as student dashboard */
+    text-decoration: none;
+}
+
+.logout-link a:hover {
+    text-decoration: underline;
+}
+/* Dashboard page styles */
+.dashboard-page {
+    font-family: Arial, sans-serif;
+    background-color: #171616; /* Change background color to white */
+    color: #333; /* Same as student dashboard */
+    padding: 20px;
+}
+
+/*management dasboard*/
+
+
+
+.announcement-item {
+    margin-bottom: 0px;
+}
+
+.announcement-item a {
+    color: #007bff; /* Same as student dashboard */
+    text-decoration: none;
+    margin-left: 10px;
+}
+
+.announcement-item a:hover {
+    text-decoration: underline;
+}
+
+/* No data message styles */
+.no-data-message {
+    font-style: italic;
+    color: #888; /* Same as student dashboard */
+}
+
+/* Registration table styles */
+.registration-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 15px;
+    background-color: #333;
+    color: whitesmoke;
+}
+
+.registration-table th,
+.registration-table td {
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+
+.registration-table th {
+    background-color: #333; /* Same as student dashboard */
+    font-weight: bold;
+    color: white;
+}
+
+/* Contact table styles */
+.contact-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 15px;
+}
+
+.contact-table th,
+.contact-table td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    background-color: #333;
+    color: whitesmoke;
+}
+
+.contact-table th {
+    background-color: #333; /* Same as student dashboard */
+    font-weight: bold;
+    color: white;
+}
+
+/* Reply link styles */
+.reply-link {
+    color: #007bff; /* Same as student dashboard */
+    text-decoration: none;
+}
+
+.reply-link:hover {
+    text-decoration: underline;
+}
+
+/* Logout link styles */
+.logout-link {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.logout-link a {
+    color: #007bff; /* Same as student dashboard */
+    text-decoration: none;
+}
+
+.logout-link a:hover {
+    text-decoration: underline;
+}
+
+/* Dashboard page styles */
+.dashboard-page {
+    font-family: Arial, sans-serif;
+    background-color: #171616; /* Change background color to white */
+    color: #333; /* Same as student dashboard */
+    padding: 20px;
+}
+
+/* management dasboard */
